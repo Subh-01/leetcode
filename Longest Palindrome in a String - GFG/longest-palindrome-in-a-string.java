@@ -44,8 +44,7 @@ class Solution{
                }
                end--;
            }
-           next=start+1;
-           start++;
+           next=start++;
            end=s.length()-1;
        } 
        return res;
